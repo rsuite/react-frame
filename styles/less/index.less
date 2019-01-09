@@ -1,0 +1,110 @@
+.hypers-frame {
+  height: 100vh;
+  @transition: 0.3s linear;
+
+  &-nav-wrap {
+    transition: transform @transition, opacity @transition;
+
+    > .rs-grid-side-bar {
+      opacity: 1;
+      transition: opacity @transition;
+    }
+
+    &.with-apps {
+      .product-icon-active {
+        position: absolute !important;
+        transform: translateX(-52px);
+        visibility: hidden;
+        opacity: 0;
+        transition: transform @transition, opacity @transition;
+      }
+
+      &.fold {
+        transform: translateX(-46px);
+        position: fixed;
+        top: 0;
+        > .rs-grid-side-bar {
+          opacity: 0;
+        }
+
+        .product-icon-active {
+          visibility: visible !important;
+          opacity: 1 !important;
+          transform: translateX(0) !important;
+        }
+      }
+    }
+
+    &.without-apps {
+      .product-icon-active {
+        position: relative;
+        width: 22px;
+        height: 22px;
+        white-space: nowrap;
+        letter-spacing: -1em;
+        text-indent: -9999em;
+        display: inline-block;
+        margin-right: 15px;
+
+        &::before {
+          content: '\3000';
+        }
+
+        > :first-child {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+        }
+      }
+    }
+    &.expand {
+      .rs-sidenav {
+        overflow: auto;
+      }
+    }
+  }
+
+  .header-hrand {
+    padding: 18px;
+    font-size: 16px;
+    height: 56px;
+    background: #fff;
+    color: #555;
+    white-space: nowrap;
+    overflow: hidden;
+    img {
+      vertical-align: sub;
+    }
+    a {
+      color: #555;
+      text-decoration: none;
+    }
+  }
+
+  .rs-sidebar {
+    position: fixed;
+    height: 100vh;
+    z-index: 3;
+    background: #fff;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.02), 4px 0 10px rgba(0, 0, 0, 0.01);
+  }
+  .rs-sidenav {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+
+  .nav-item-active {
+    color: @H500 !important;
+  }
+
+  .page-container {
+    transition: padding 0.2s ease-in;
+    padding-left: 56px;
+
+    &-fill {
+      padding-left: 250px;
+    }
+  }
+}
