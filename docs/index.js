@@ -100,7 +100,7 @@ class App extends Component {
           <Nav>
             {this.renderNavs()}
             <Nav.Item
-              href="https://github.com/rsuite/rsuite-management-system"
+              href="https://github.com/rsuite/react-frame"
               icon={<Icon icon="github" />}
               target="_blank"
             >

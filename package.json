@@ -29,13 +29,13 @@
     "prepages": "npm run docs",
     "pages": "node docs/gh-pages.js",
     "prerelease": "npm run build",
-    "release": "npm publish",
+    "release": "npm publish --access public",
     "test": "jest && codecov",
     "coverage": "jest --colors --coverage"
   },
   "repository": {
     "type": "git",
-    "url": "https://git.hypers.com/fe/rsuite-frame"
+    "url": "https://github.com/rsuite/react-frame"
   },
   "files": [
     "lib",

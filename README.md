@@ -8,7 +8,7 @@
 - `<Frame.Content>` Content 内容区域
 
 ## Demo
-
+[Demo](https://rsuite.github.io/react-frame/)
 
 ## 用法
 
@@ -31,7 +31,7 @@ npm install @rsuite/react-frame
 **在代码中引入**
 
 ```js
-import Frame from 'rsuite-frame';
+import Frame from '@rsuite/rsuite-frame';
 ```
 
 ### Demo
@@ -39,7 +39,7 @@ import Frame from 'rsuite-frame';
 Frame 结构如下：
 ![](./docs/screenshoot/frame.jpg)
 
-其中 Frame 固定的是 1、2、3 部分。使用者可以自行传入菜单栏和 content 内容。
+其中 Frame 固定的是 1、2 部分。使用者可以自行传入菜单栏和 content 内容。
 
 ```js
 <Frame>
@@ -54,7 +54,7 @@ Frame 结构如下：
   <Frame.Content>content</Frame.Content>
 </Frame>
 ```
-
+具体 Demo code 可以参考 [https://github.com/rsuite/react-frame/blob/master/docs/index.js](https://github.com/rsuite/react-frame/blob/master/docs/index.js)。
 ## Props
 
 ## `<Frame>`
