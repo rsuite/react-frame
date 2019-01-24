@@ -6243,13 +6243,6 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rsuite-grid-sidebar@^0.1.15:
-  version "0.1.15"
-  resolved "https://npm.hypers.cc/rsuite-grid-sidebar/-/rsuite-grid-sidebar-0.1.15.tgz#8644112bffa951be3459c37b158c0b491c21cc52"
-  dependencies:
-    classnames "^2.2.5"
-    rsuite "^3.0.0"
-
 rsuite-intl@~1.0.4:
   version "1.0.4"
   resolved "https://npm.hypers.cc/rsuite-intl/-/rsuite-intl-1.0.4.tgz#182451286ad39bf0099a16490d01b9a4b4a89c16"
@@ -6285,7 +6278,7 @@ rsuite-utils@~1.3.1:
     lodash "^4.17.4"
     react-lifecycles-compat "^3.0.4"
 
-rsuite@^3.0.0, rsuite@^3.2.5:
+rsuite@^3.2.5:
   version "3.2.5"
   resolved "https://npm.hypers.cc/rsuite/-/rsuite-3.2.5.tgz#3ff5e677c6b1325a02c93d82cbce6b5029044f3c"
   dependencies:

@@ -79,19 +79,7 @@ Frame 结构如下：
 | showMenu          | boolean    | 是否隐藏菜单                 |
 | style             | Object     |                              |
 
-`AppType`:
 
-```
-type AppType = {
-  name: string,
-  code?: string,
-  url: string
-}
-```
-
-`activeName` 和 `activeCode` 取其一即可。
-
-其中 `<Frame.Nav>` 的大部分 props 都来自于 `rsuite-grid-sidebar`，具体的说明及用法可以看 rsuite-grid-sidebar 的[文档](https://git.hypers.com/fe/rsuite-grid-sidebar)
 
 ## `<Frame.Content>`
 

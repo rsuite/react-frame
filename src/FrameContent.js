@@ -17,11 +17,11 @@ const FrameContent = ({ style, expand, showMenu, className = '', children }: Pro
   const classes = classNames(`page-container ${className}`, {
     'page-container-fill': showMenu && expand
   });
-  return (
+  return expand !== null ? (
     <Container style={style} className={classes}>
       <Content>{children}</Content>
     </Container>
-  );
+  ) : null;
 };
 
 const enhance = props => (

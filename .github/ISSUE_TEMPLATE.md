@@ -10,7 +10,7 @@
 
 
 ### Version & Environment [版本及环境]
-+ hypers-frame version [hypers-frame 版本]：
++ hypers-frame version [react-frame 版本]：
 + Browser version [浏览器类型和版本]：
 + OS Version [操作系统类型和版本]：
 + Other Environment Info [其他可以重现问题的环境信息]：
