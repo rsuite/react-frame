@@ -1,4 +1,4 @@
-/*! Last update: Wed Jan 09 2019 17:18:00 GMT+0800 (中国标准时间) */
+/*! Last update: Mon Jan 28 2019 10:34:33 GMT+0800 (中国标准时间) */
 /* stylelint-disable */
 /* stylelint-disable */
 html {
@@ -20726,63 +20726,6 @@ a.rs-uploader-picture-text .rs-uploader-trigger-btn.rs-btn-disabled {
 .rs-uploader-picture-text .rs-uploader-file-item-has-error .rs-uploader-file-item-title a:hover,
 .rs-uploader-picture-text .rs-uploader-file-item-has-error .rs-uploader-file-item-status a:hover {
   text-decoration: none;
-}
-/**
-颜色变量见文件:
-https://github.com/rsuite/rsuite-theme/blob/next/src/less/commonly-variables.less
-注意：不要在自己的组件中声明颜色变量
-**/
-.rs-grid-sidebar {
-  border-right: 1px solid #f2f2f5;
-}
-.rs-grid-sidebar .rs-sidenav {
-  width: 45px;
-}
-.rs-grid-sidebar-company-logo {
-  height: 56px;
-  background: #fff;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.rs-grid-sidebar-company-logo img {
-  width: 33px;
-}
-.rs-grid-sidebar-company-logo:after {
-  content: '';
-  position: absolute;
-  width: 20px;
-  border-bottom: 1px solid #f2f2f5;
-  bottom: 0;
-  left: 12px;
-}
-.rs-grid-sidebar-icon {
-  height: 46px;
-  padding: 13px;
-  cursor: pointer;
-  display: inline-block;
-}
-.rs-grid-sidebar-icon img {
-  vertical-align: baseline;
-}
-.rs-grid-sidebar-icon-gray {
-  display: block;
-}
-.rs-grid-sidebar-icon-color {
-  display: none;
-}
-.rs-grid-sidebar-icon:hover .rs-grid-sidebar-icon-gray,
-.rs-grid-sidebar-icon.active .rs-grid-sidebar-icon-gray {
-  display: none;
-}
-.rs-grid-sidebar-icon:hover .rs-grid-sidebar-icon-color,
-.rs-grid-sidebar-icon.active .rs-grid-sidebar-icon-color {
-  display: block;
-}
-.rs-grid-sidebar .rs-sidenav .rs-nav-item .rs-nav-item-content > .rs-icon {
-  left: 14px;
 }
 .hypers-frame {
   height: 100vh;
