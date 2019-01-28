@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import 'babel-polyfill';
 import ReactDOM from 'react-dom';
 import { Icon, Sidenav, Nav, Dropdown } from 'rsuite';
 import { Link } from 'react-router';
