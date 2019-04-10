@@ -31,7 +31,7 @@ npm install @rsuite/react-frame
 **在代码中引入**
 
 ```js
-import Frame from '@rsuite/rsuite-frame';
+import Frame from '@rsuite/react-frame';
 ```
 
 ### Demo
